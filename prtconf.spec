@@ -7,7 +7,7 @@ Group: Applications/System
 Source: sunsite.mff.cuni.cz/OS/Linux/Sparc/local/prtconf/prtconf-1.2.tgz
 URL: http://ultra.linux.cz/
 ExclusiveArch: sparc sparc64
-BuildRoot: /var/tmp/%{name}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This utility will dump SPARC OpenPROM device tree
