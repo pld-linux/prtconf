@@ -1,10 +1,13 @@
 Summary:	SPARC OpenPROM dump utility
+Summary(pl):	Narzêdzie do zrzucania zawarto¶ci sparcowych OpenPROM-ów
 Name:		prtconf
 Version:	1.2
 Release:	3
 License:	GPL
-Group:		Utilities/System
-Source0:	ftp://sunsite.mff.cuni.cz/OS/Linux/Sparc/local/prtconf/prtconf-1.2.tgz
+Group:		Applications/System
+Group(de):	Applikationen/System
+Group(pl):	Aplikacje/System
+Source0:	ftp://sunsite.mff.cuni.cz/OS/Linux/Sparc/local/prtconf/%{name}-%{version}.tgz
 URL:		http://ultra.linux.cz/
 ExclusiveArch:	sparc sparc64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -13,6 +16,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This utility will dump SPARC OpenPROM device tree in the format
 similar to Solaris prtconf, that is, in a nicely readable compact
 format.
+
+%description -l pl
+To narzêdzie zrzuca drzewo urz±dzeñ sparcowych OpenPROM-ów w formacie
+podobnym do solarisowego prtconf, czyli ³atwo czytelnym.
 
 %prep
 %setup -q
@@ -26,8 +33,6 @@ install -d $RPM_BUILD_ROOT%{%{_sbindir},%{_mandir}/man8}
 
 install prtconf $RPM_BUILD_ROOT%{_sbindir}/prtconf
 install prtconf.8 $RPM_BUILD_ROOT%{_mandir}/man8/prtconf.8
-
-gzip -9nf RPM_BUILD_ROOT%{_mandir}/man8/*
 
 %clean
 rm -rf $RPM_BUILD_ROOT
