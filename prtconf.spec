@@ -5,8 +5,6 @@ Version:	1.2
 Release:	3
 License:	GPL
 Group:		Applications/System
-Group(de):	Applikationen/System
-Group(pl):	Aplikacje/System
 Source0:	ftp://sunsite.mff.cuni.cz/OS/Linux/Sparc/local/prtconf/%{name}-%{version}.tgz
 URL:		http://ultra.linux.cz/
 ExclusiveArch:	sparc sparc64
