@@ -24,7 +24,7 @@ format.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{%{_sbindir},%{_mandir}/man8}
 
-install -s prtconf $RPM_BUILD_ROOT%{_sbindir}/prtconf
+install prtconf $RPM_BUILD_ROOT%{_sbindir}/prtconf
 install prtconf.8 $RPM_BUILD_ROOT%{_mandir}/man8/prtconf.8
 
 gzip -9nf RPM_BUILD_ROOT%{_mandir}/man8/*
