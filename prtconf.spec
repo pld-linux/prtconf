@@ -1,5 +1,5 @@
 Summary:	SPARC OpenPROM dump utility
-Summary(pl):	Narzêdzie do zrzucania zawarto¶ci sparcowych OpenPROM-ów
+Summary(pl.UTF-8):   NarzÄ™dzie do zrzucania zawartoÅ›ci sparcowych OpenPROM-Ã³w
 Name:		prtconf
 Version:	1.3
 Release:	3
@@ -18,11 +18,11 @@ format.
 There is also eeprom utility included, which displays or modifies
 OpenPROM options.
 
-%description -l pl
-Narzêdzie prtconf zrzuca drzewo urz±dzeñ ze sparcowych OpenPROM-ów w
-formacie podobnym do solarisowego prtconf, czyli ³atwo czytelnym.
+%description -l pl.UTF-8
+NarzÄ™dzie prtconf zrzuca drzewo urzÄ…dzeÅ„ ze sparcowych OpenPROM-Ã³w w
+formacie podobnym do solarisowego prtconf, czyli Å‚atwo czytelnym.
 
-Za³±czone jest tak¿e narzêdzie eeprom, wy¶wietlaj±ce lub modyfikuj±ce
+ZaÅ‚Ä…czone jest takÅ¼e narzÄ™dzie eeprom, wyÅ›wietlajÄ…ce lub modyfikujÄ…ce
 opcje w OpenPROM-ie.
 
 %prep
