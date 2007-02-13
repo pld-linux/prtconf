@@ -1,5 +1,5 @@
 Summary:	SPARC OpenPROM dump utility
-Summary(pl.UTF-8):   Narzędzie do zrzucania zawartości sparcowych OpenPROM-ów
+Summary(pl.UTF-8):	Narzędzie do zrzucania zawartości sparcowych OpenPROM-ów
 Name:		prtconf
 Version:	1.3
 Release:	3
